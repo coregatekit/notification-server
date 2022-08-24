@@ -1,0 +1,45 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 debug pnpm:package-manifest": {
+    "initial": {
+      "name": "coregate-fcm-server",
+      "version": "1.0.0",
+      "description": "",
+      "main": "index.js",
+      "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+      },
+      "keywords": [],
+      "author": "",
+      "license": "ISC"
+    },
+    "prefix": "/Users/joekim/workspace/fcm/coregate-fcm-server"
+  },
+  "2 debug pnpm:context": {
+    "currentLockfileExists": false,
+    "storeDir": "/Users/joekim/Library/pnpm/store/v3",
+    "virtualStoreDir": "/Users/joekim/workspace/fcm/coregate-fcm-server/node_modules/.pnpm"
+  },
+  "3 debug pnpm:stage": {
+    "prefix": "/Users/joekim/workspace/fcm/coregate-fcm-server",
+    "stage": "resolution_started"
+  },
+  "4 error pnpm": {
+    "code": "ERR_PNPM_MALFORMED_METADATA",
+    "hint": "This might mean that the package was unpublished from the registry",
+    "spec": {
+      "fetchSpec": "latest",
+      "name": "typescrit",
+      "type": "tag"
+    },
+    "pkgsStack": [],
+    "err": {
+      "name": "pnpm",
+      "message": "Received malformed metadata for \"typescrit\"",
+      "code": "ERR_PNPM_MALFORMED_METADATA",
+      "stack": "pnpm: Received malformed metadata for \"typescrit\"\n    at default_1 (/opt/homebrew/Cellar/pnpm/7.3.0/libexec/lib/node_modules/pnpm/dist/pnpm.cjs:85105:15)\n    at exports2.default (/opt/homebrew/Cellar/pnpm/7.3.0/libexec/lib/node_modules/pnpm/dist/pnpm.cjs:85243:60)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n    at async resolveNpm (/opt/homebrew/Cellar/pnpm/7.3.0/libexec/lib/node_modules/pnpm/dist/pnpm.cjs:85655:22)\n    at async Object.resolve (/opt/homebrew/Cellar/pnpm/7.3.0/libexec/lib/node_modules/pnpm/dist/pnpm.cjs:85867:28)\n    at async run (/opt/homebrew/Cellar/pnpm/7.3.0/libexec/lib/node_modules/pnpm/dist/pnpm.cjs:92798:23)"
+    }
+  }
+}
